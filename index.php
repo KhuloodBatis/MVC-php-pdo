@@ -1,2 +1,3 @@
 <?php
-'test';
+session_start();
+require_once __DIR__ . '/app/router.php';
